@@ -1,4 +1,4 @@
-package behavioural.strategypattern;
+package behavioural.strategy;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
