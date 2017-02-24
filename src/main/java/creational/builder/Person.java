@@ -6,7 +6,7 @@ package creational.builder;
  * http://www.oodesign.com/builder-pattern.html
  */
 
-public class Person {
+class Person {
     private final String lastName;
     private final String firstName;
     private final String middleName;

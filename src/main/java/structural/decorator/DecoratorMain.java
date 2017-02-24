@@ -5,7 +5,7 @@ package structural.decorator;
  *
  * http://www.oodesign.com/decorator-pattern.html
  */
-public class DecoratorMain {
+class DecoratorMain {
     public static void main(String[] args) {
         IceCream iceCream = new SimpleIceCream();
         System.out.println(iceCream.makeIceCream());

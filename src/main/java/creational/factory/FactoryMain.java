@@ -5,7 +5,7 @@ package creational.factory;
  *
  * http://www.oodesign.com/factory-pattern.html
  */
-public class FactoryMain {
+class FactoryMain {
     public static void main(String[] args) {
         // create a small dog
         Dog dog = DogFactory.getDog("small");

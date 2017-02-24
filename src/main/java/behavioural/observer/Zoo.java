@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * Created by michal on 17.02.17.
  */
-public class Zoo {
+class Zoo {
     private List<Animal> animals = new ArrayList<>();
     private List<AnimalAddedListener> listeners = new ArrayList<>();
 

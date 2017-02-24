@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * Created by michal on 16.02.17.
  */
-public class PaypalStrategy implements PaymentStrategy{
+class PaypalStrategy implements PaymentStrategy{
     private String emailId;
     private String password;
 

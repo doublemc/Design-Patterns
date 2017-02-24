@@ -5,7 +5,7 @@ package structural.proxy;
  *
  * http://www.oodesign.com/proxy-pattern.html
  */
-public class ProxyMain {
+class ProxyMain {
     public static void main(String[] args) {
         // using proxy to get object of RealImage class
         Image image = new ProxyImage("pic10mb001.jpg");

@@ -6,7 +6,7 @@ import java.time.LocalDate;
 /**
  * Created by michal on 16.02.17.
  */
-public class CreditCardStrategy implements PaymentStrategy {
+class CreditCardStrategy implements PaymentStrategy {
     private String name;
     private String cardNumber;
     private String cvv;

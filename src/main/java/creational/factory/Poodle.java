@@ -3,7 +3,7 @@ package creational.factory;
 /**
  * Created by michal on 20.02.17.
  */
-public class Poodle implements Dog {
+class Poodle implements Dog {
 
     @Override
     public void speak() {

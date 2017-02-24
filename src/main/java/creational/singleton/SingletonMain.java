@@ -5,7 +5,7 @@ package creational.singleton;
  *
  * http://www.oodesign.com/singleton-pattern.html
  */
-public class SingletonMain {
+class SingletonMain {
     public static void main(String[] args) {
         SingleObject.getInstance().hello();
 

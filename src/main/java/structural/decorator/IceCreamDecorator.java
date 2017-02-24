@@ -3,7 +3,7 @@ package structural.decorator;
 /**
  * Created by michal on 21.02.17.
  */
-public abstract class IceCreamDecorator implements IceCream {
+abstract class IceCreamDecorator implements IceCream {
 
     protected IceCream specialIcecream;
 

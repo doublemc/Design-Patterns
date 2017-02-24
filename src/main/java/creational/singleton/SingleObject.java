@@ -6,7 +6,7 @@ package creational.singleton;
 // this implementation isn't thread safe -> possible race condition
 // using ENUM is better
 
-public class SingleObject {
+class SingleObject {
     // create an object of SingleObject class
     private static SingleObject instance = new SingleObject();
 

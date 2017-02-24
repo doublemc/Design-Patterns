@@ -3,7 +3,7 @@ package creational.builder;
 /**
  * Created by michal on 20.02.17.
  */
-public class BuilderMain {
+class BuilderMain {
     private Person person1 = new Person.PersonBuilder()
             .setFirstName("Michal")
             .setLastName("x")

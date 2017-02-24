@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 /**
  * Created by michal on 16.02.17.
  */
-public class Item {
+class Item {
     private String name;
     private BigDecimal price;
 

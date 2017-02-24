@@ -3,7 +3,7 @@ package structural.decorator;
 /**
  * Created by michal on 21.02.17.
  */
-public class HoneyDecorator extends IceCreamDecorator {
+class HoneyDecorator extends IceCreamDecorator {
     public HoneyDecorator(IceCream specialIcecream) {
         super(specialIcecream);
     }

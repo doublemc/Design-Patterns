@@ -3,7 +3,7 @@ package behavioural.observer;
 /**
  * Created by michal on 17.02.17.
  */
-public class CountingAnimalAddedListener implements AnimalAddedListener {
+class CountingAnimalAddedListener implements AnimalAddedListener {
     private static int animalsAddedCount = 0;
 
     @Override

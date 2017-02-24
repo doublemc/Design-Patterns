@@ -5,7 +5,7 @@ package creational.singleton;
  */
 
 // thread-safe singleton - best way
-public enum SingleObjectEnum {
+enum SingleObjectEnum {
     INSTANCE;
 
     public void hello() {

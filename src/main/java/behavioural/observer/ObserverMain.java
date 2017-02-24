@@ -5,7 +5,7 @@ package behavioural.observer;
  *
  * http://www.oodesign.com/observer-pattern.html
  */
-public class ObserverMain {
+class ObserverMain {
     public static void main(String[] args) {
         // Create the zoo to store animals
         Zoo zoo = new Zoo();

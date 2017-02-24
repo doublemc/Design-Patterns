@@ -8,7 +8,7 @@ import java.time.LocalDate;
  *
  * http://www.oodesign.com/strategy-pattern.html
  */
-public class StrategyMain {
+class StrategyMain {
     public static void main(String[] args) {
         ShoppingCart shoppingCart = new ShoppingCart();
 

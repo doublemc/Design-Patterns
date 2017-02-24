@@ -3,7 +3,7 @@ package structural.proxy;
 /**
  * Created by michal on 21.02.17.
  */
-public class ProxyImage implements Image {
+class ProxyImage implements Image {
 
     private RealImage realImage;
     private String fileName;
